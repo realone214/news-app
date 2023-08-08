@@ -1,0 +1,303 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  padding: auto;
+}
+
+nav {
+  height: 84px;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #ffffff;
+  background-color: #192140;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo,
+.menu {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  padding-left: 80px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .icon {
+    display: none;
+  }
+}
+.icon {
+  padding-right: 60px;
+}
+
+.services {
+  display: flex;
+}
+
+.logo {
+  color: var(--primary-yellow-01, #dcf10d);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  color: #ffffff;
+  line-height: 1;
+  border: 1px solid #0266ff;
+  border-radius: 40px;
+  padding: 15px;
+}
+
+.buttons {
+  padding-left: 60px;
+  padding-top: 5px;
+}
+
+.sign-up,
+.log-in {
+  border: none;
+  padding: 10px 20px;
+  color: #9d9db5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.16px;
+}
+
+.sign-up:hover,
+.log-in:hover {
+  border: 1px solid #0266ff;
+  color: #0266ff;
+}
+
+.services a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #dcf10d;
+}
+
+.card-close {
+  opacity: 0;
+}
+
+.card-close:hover {
+  opacity: 1;
+}
+
+.card-tittle-text {
+  padding: 5px 5px;
+  color: #10131c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.4px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.done {
+  display: none;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.image-container {
+  height: 290px;
+}
+
+.card-close {
+  position: absolute;
+  left: 82%;
+  padding: 10px;
+  color: #9d9db5;
+}
+
+.card-image img {
+  border-radius: 6px;
+}
+
+.card-select {
+  color: #192140;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  display: none;
+}
+
+.card-tittle-container {
+  position: absolute;
+  bottom: 0px;
+  background-color: #f8f9fc;
+  padding-bottom: 5px;
+}
+
+.item-container {
+  display: flex;
+  padding-top: 10px;
+}
+
+.heart-likes {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.bottom-border {
+  border-bottom: 0.9px solid #9d9db5;
+  padding: 2px;
+}
+
+.card-tittle-addinfo,
+.card-tittle-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.date {
+  border: 0.5px solid #c0bfcf;
+  display: inline;
+  padding-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  color: #9d9db5;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 15.6px */
+}
+
+.likes,
+.heart-icon {
+  padding-left: 5px;
+}
+
+.likes {
+  color: #9d9db5;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.heart-icon:hover {
+  color: #0266ff;
+}
+
+.heart-icon {
+  color: #9d9db5;
+}
+
+.blue-heart {
+  color: #0266ff;
+}
+
+.fa {
+  font-weight: lighter;
+}
+
+.blog,
+.courses,
+.terms-policy,
+.follow {
+  display: flex;
+  padding-top: 20px;
+}
+
+.blog {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog-container,
+.courses-container,
+.follow-container,
+.terms-policy-container {
+  color: #ffffff;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
+.follow-container {
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.blog p,
+.courses p,
+.follow img,
+.terms-policy p {
+  padding-right: 20px;
+  padding-top: 5px;
+  color: #d7f8ff;
+  font-size: 12px;
+}
+
+.terms-policy {
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+} /*# sourceMappingURL=main.css.map */

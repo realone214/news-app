@@ -1,0 +1,19 @@
+@mixin element-properties(
+  $height,
+  $width,
+  $Pleft,
+  $Pright,
+  $Ptop,
+  $Pbottom,
+  $color,
+  $BGcolor
+) {
+  height: $height;
+  width: $width;
+  padding-left: $Pleft;
+  padding-right: $Pright;
+  padding-top: $Ptop;
+  padding-bottom: $Pbottom;
+  color: $color;
+  background-color: $BGcolor;
+}
